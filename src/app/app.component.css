@@ -1,0 +1,56 @@
+.generator {
+  box-sizing: border-box;
+  width: 17em;
+  border: 2px solid darkred;
+  border-radius: 2em;
+  padding: .5em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.generator h1{
+  text-decoration: underline darkred ;
+  font-size: 1.5em;
+}
+
+.btn-container button {
+  width: 5em;
+  border-radius: 0.5em;
+  border: 1px solid grey;
+  background-image: linear-gradient(183deg, rgba(255,255,255,1) 1%, rgba(93, 93, 93 , 0.2) 100%);
+  font-size: 1em;
+  text-transform: uppercase;
+  color: darkred;
+  font-weight: bold;
+
+}
+.btn-container button:active{
+  background-image: linear-gradient(350deg, rgba(255,255,255,1) 1%, rgba(93, 93, 93 , 0.2) 100%);
+}
+
+.btn-container button:disabled{
+  opacity: 0.5;
+}
+
+.btn-container button + button {
+  margin-left: 2em;
+}
+
+.generator ul {
+  padding: 0;
+  list-style: none;
+}
+
+.palindrome {
+  color: red;
+}
+.onlyNumbers {
+  color:blue;
+}
+.hidden{
+  display: none;
+}
